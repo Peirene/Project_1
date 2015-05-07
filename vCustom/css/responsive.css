@@ -1,0 +1,49 @@
+
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: lightyellow;
+  }
+  .col-4 {
+    /*background-color: purple;*/
+    min-width: 200px;
+    width: 100%;
+    /*display: flex;*/
+  }
+
+}
+
+
+@media screen and (min-width: 481px) {
+  body {
+    background-color: pink;
+  }
+  .col-4 {
+    min-width: 200px;
+    width: 50%;
+  }
+
+}
+
+
+@media screen and (min-width: 660px) {
+  body {
+    background-color: lightgreen;
+  }
+  .col-4 {
+    min-width: 200px;
+    width: 33.3333%;
+  }
+
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    background-color: lightblue;
+  }
+  .col-4 {
+    min-width: 200px;
+    width: 25%;
+  }
+
+}
