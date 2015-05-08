@@ -1,8 +1,8 @@
 /*formatting for testing*/
 
-/** {
+* {
     border: 1px solid red !important;
-}*/
+}
 
 /*defines box sizing for various browsers*/
 * {
@@ -17,6 +17,7 @@
     margin: 0 auto;
     max-width: 900px;
     width: 100%;
+    display: inline;
 }
 
 .row {
@@ -39,6 +40,7 @@
 
 .col-4 {
     width: 33.33%;
+    display: flex;
 }
 
 .col-5 {
@@ -197,60 +199,50 @@ nav a {
 }
 
 
-
-
-/*BODY*/
-
-
-
-
-
-/*FOOTER*/
-
 /*RESPONSIVE*/
 
 
 
-@media screen and (max-width: 480px) {
+@media (max-width:479px) {
   body {
     background-color: lightyellow;
   }
   .col-4 {
     background-color: yellow;
-    min-width: 200px;
+    /*min-width: 200px;*/
     width: 100%;
-    /*display: flex;*/
+    display: flex;
   }
 
 }
 
 
-@media screen and (min-width: 481px) {
+@media (min-width:480px) and (max-width:659px) {
   body {
     background-color: lightpink;
   }
   .col-4 {
     background-color: pink;
-    min-width: 200px;
+    /*min-width: 200px;*/
     width: 50%;
   }
 
 }
 
 
-@media screen and (min-width: 660px) {
+@media (min-width:660px) and (max-width:899px){
   body {
     background-color: lightgreen;
   }
   .col-4 {
     background-color: green;
-    min-width: 200px;
+    /*min-width: 200px;*/
     width: 33.3333%;
   }
 
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width:900px) {
   body {
     background-color: lightblue;
   }
